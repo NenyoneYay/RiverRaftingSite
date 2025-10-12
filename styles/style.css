@@ -1,0 +1,96 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #73c9df;
+}
+nav a {
+    text-align: center;
+    color: white;
+    background-color: #219ebc;
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgb(199, 199, 199);
+    background-color: #1f5f80;
+    text-decoration: underline;
+}
+
+h4 {
+    color: #023047;
+}
+.home-title {
+    color: #023047;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+#hero-img {
+    width: 100%
+}
+
+.button-box {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: #219ebc;
+}
+
+body {
+    background-color: #8ecae6;
+}
+header {
+    background-color: #219ebc;
+}
+.book, .join { /*Book now! */
+    background-color: #023047;
+    color: #ffffff;
+    text-decoration: none;
+}
+.msg {
+    background-color: #219ebc;
+}
+.msg h2 {
+    color: white;
+}
+.msg p {
+    color: white;
+}
+footer {
+    background-color: #219ebc;
+    color: #8ecae6;
+}
+
+footer a {
+    background-color: #219ebc;
+    color: #8ecae6;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: #219ebc;
+    color: #023047;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.book:hover, .join:hover {
+    color: rgb(207, 207, 207);
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
