@@ -36,6 +36,7 @@
                 <h4>Make memories with Rapid Runners</h4>
                 <div class="button-box">
                     <a class="book" href="contactus.html">Book Now!</a>
+                    <button id="myBtn" class="book">Book Now Modal Button!</button>
                 </div>
             </section>
         </div>
@@ -82,6 +83,17 @@
             </div>
         </footer>
     </div>
+
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <p>Here is some text!</p>
+        <h1>Thank you for clicking on my modal button!</h1>
+        <div class="button-box">
+                    <a class="book" href="contactus.html">Book Now!</a>
+                    
+                </div>
+    </div>
+
     <script>
     // get the feedback div element so we can do something with it.
     const feedbackElement = document.getElementById('feedback');
@@ -98,6 +110,33 @@
         // add a class to move everything down so our message doesn't cover it.
         document.body.classList.toggle('moveDown');
     });
+    </script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on the button, open the modal
+        btn.onclick = function() {
+        modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        }
     </script>
 </body>
 </html>
